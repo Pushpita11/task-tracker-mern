@@ -117,6 +117,12 @@ npm run dev
 - Drag & Drop Tasks
 
 ---
+# Live Demo
+
+Frontend (Vercel):
+https://task-tracker-mern-self.vercel.app/
+Backend (Render):
+https://task-tracker-mern-4cel.onrender.com
 
 ## 👩‍💻 Developer
 
