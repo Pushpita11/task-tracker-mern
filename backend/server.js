@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import connectDB from "./config/db.js";
-import taskRoutes from "./routes/abc.js";
+import taskRoutes from "./routes/taskRoutes.js";
 dotenv.config();
 console.log(process.env.MONGO_URI);
 connectDB();
