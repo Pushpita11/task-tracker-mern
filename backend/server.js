@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import connectDB from "./config/db.js";
 import taskRoutes from "./routes/taskRoutes.js";
 dotenv.config();
-
+console.log(process.env.MONGO_URI);
 connectDB();
 
 const app = express();
